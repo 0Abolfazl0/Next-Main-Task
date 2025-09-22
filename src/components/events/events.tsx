@@ -6,8 +6,8 @@ interface IProps {
 }
 const EventsPage: FC<IProps> = async ({value}) => {
   return (
-    <div className='flex flex-col justify-center bg-gray-200 p-10 rounded-3xl'>
-        <div className='border p-3 rounded-2xl border-amber-300 bg-amber-500'>
+    <div className='flex flex-col justify-center bg-gray-200 p-5 rounded-3xl'>
+        <div className="p-3 bg-white rounded-3xl">
         <Image className='rounded-3xl' src={value.imageAddress} width={150} alt='Picture' height={150}/>
         <div className='text-blue-500 flex justify-around'>
             <h1>
